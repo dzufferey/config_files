@@ -20,3 +20,12 @@ ln -s $PWD/vimrc $HOME/.vimrc
 
 * Install [difftastic](https://difftastic.wilfred.me.uk/)
 * Check/update the signing key in `$HOME/.gitconfig`
+
+### Bash
+
+```sh
+# Make a backup
+cp ~/.bashrc{,.bak}
+# Set the editor to neovim (local installation)
+echo export EDITOR="/home/dzufferey/bin/nvim" >> $HOME/.bashrc
+```
