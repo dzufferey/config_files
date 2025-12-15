@@ -29,3 +29,11 @@ cp ~/.bashrc{,.bak}
 # Set the editor to neovim (local installation)
 echo export EDITOR="/home/dzufferey/bin/nvim" >> $HOME/.bashrc
 ```
+
+### LazyVim
+
+```sh
+cp ./nvim/lua/config/* $HOME/.config/nvim/lua/config/
+cp ./nvim/lua/plugins/* $HOME/.config/nvim/lua/plugins/
+```
+
